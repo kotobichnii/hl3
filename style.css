@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px;
+}
+
+.footer{
+  backGround-color: #f1f1f1;
+  padding: 10px;
+  text-align: CENTER;
+}
+
+@MEDIA (MAX-WIDTH: 700PX) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
